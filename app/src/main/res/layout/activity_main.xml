@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kuli - At your service"
+        android:textColor="#F4F1F1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView_map_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/google_map"
+        android:text="Pick nearby indoor locations" />
+
+    <Spinner
+        android:id="@+id/map_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_below="@id/textView_map_spinner"
+        android:minHeight="100sp" />
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map_spinner"
+        android:layout_marginTop="15dp"
+        android:insetLeft="200dp"
+        android:onClick="enter"
+        android:text="Load Indoor Map" />
+
+
+</RelativeLayout>

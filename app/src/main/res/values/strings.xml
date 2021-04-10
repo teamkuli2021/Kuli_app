@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kuli_1</string>
+    <string name="map_key" translatable="false">AIzaSyCXZHRzduaxWn5RCDw1nxE_gY1__5BeTWk</string>
+    <string-array name="planets_array">
+        <item>Pheonix Mall</item>
+        <item>MG Road Mall</item>
+        <item>KLM Mall</item>
+        <item>More Super market</item>
+    </string-array>
+    <string-array name="from_array">
+        <item>Please choose source</item>
+        <item>Pantaloons</item>
+        <item>Food court</item>
+        <item>Lifestyle</item>
+        <item>Dominos</item>
+        <item>Washrooms</item>
+    </string-array>
+    <string-array name="to_array">
+        <item>Please choose destination</item>
+        <item>Pantaloons</item>
+        <item>Food court</item>
+        <item>Lifestyle</item>
+        <item>Dominos</item>
+        <item>Washrooms</item>
+    </string-array>
+</resources>
